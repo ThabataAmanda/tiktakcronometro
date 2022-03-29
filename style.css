@@ -1,189 +1,190 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 main {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    text-transform: uppercase;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 47px;
-    margin-top: 47px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 47px;
+  margin-top: 47px;
 }
 
 header {
-    width: auto;
-    height: 160px;
-    background-color: #1C2326;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-
+  width: auto;
+  height: 160px;
+  background-color: #1c2326;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .crono {
-    width: 130px;
-    padding-right: 20px;
+  width: 130px;
+  padding-right: 20px;
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    height: 95px;
-    bottom: 0;
-    background-color: #1C2326;
-    position: fixed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 95px;
+  bottom: 0;
+  background-color: #1c2326;
+  position: fixed;
 }
 
 h2,
 a {
-    color: #D91A1A;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Dongle', sans-serif;
+  color: #d91a1a;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Dongle", sans-serif;
 }
 
 .crobase {
-    width: 400px;
-    height: 200px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-family: 'Dongle', sans-serif;
-    font-size: 70px;
+  width: 400px;
+  height: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Dongle", sans-serif;
+  font-size: 70px;
 }
 
 #time {
-    color: #1C2326;
+  color: #1c2326;
 }
 
 .titulo {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-    color: #D91A1A;
-    text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  color: #d91a1a;
+  text-transform: uppercase;
+}
+
+a:hover {
+  transition: 1s;
+  padding: 5px;
+  color: white;
 }
 
 .botoes {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    position: absolute;
-    bottom: 210px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 210px;
 }
 
 #go {
-    border-radius: 30px;
-    padding: 5px;
-    width: 100px;
-    text-transform: uppercase;
-    font-family: 'Dongle', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.829);
-    background-color: #591515;
-    border: none;
-    color: white;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
+  border-radius: 30px;
+  padding: 5px;
+  width: 100px;
+  text-transform: uppercase;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.829);
+  background-color: #591515;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #clear,
 #pause {
-    border-radius: 30px;
-    padding: 3px;
-    width: 80px;
-    text-transform: uppercase;
-    font-family: 'Dongle', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.548);
-    background-color: #A61414;
-    border: none;
-    color: white;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+  border-radius: 30px;
+  padding: 3px;
+  width: 80px;
+  text-transform: uppercase;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.548);
+  background-color: #a61414;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 #time {
-    position: absolute;
-    top: 210px;
+  position: absolute;
+  top: 210px;
 }
 
-@media (max-width:400px) {
-    .crono {
-        width: 100px;
+@media (max-width: 400px) {
+  .crono {
+    width: 100px;
+  }
 
-    }
+  .titulo {
+    font-size: 30px;
+    width: 160px;
+    display: flex;
+  }
 
-    .titulo {
-        font-size: 30px;
-        width: 160px;
-        display: flex;
-    }
+  footer h2 {
+    font-size: 25px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    text-align: center;
+  }
 
-    footer h2 {
-        font-size: 25px;
-        width: 430px;
-        display: flex;
-        flex-direction: column;
-        line-height: 20px;
-        text-align: center;
-    }
+  .crobase {
+    width: 100px;
+  }
 
-    .crobase {
-        width: 100px;
-    }
+  #time {
+    top: 290px;
+  }
 
-    #time {
-        top: 290px;
-    }
-
-    .botoes {
-        bottom: 270px;
-    }
-
+  .botoes {
+    bottom: 270px;
+  }
 }
 
+@media (min-height: 800px) {
+  .crono {
+    width: 125px;
+    margin-left: 20px;
+  }
 
-@media (min-height:800px) {
-    .crono {
-        width: 125px;
-        margin-left: 20px;
-    }
+  .titulo {
+    font-size: 40px;
+    margin-right: 20px;
+  }
 
-    .titulo{
-        font-size: 40px;
-        margin-right: 20px;
-    }
+  #time {
+    top: 370px;
+  }
 
-    #time {
-        top: 370px;
-    }
-
-    .botoes {
-        bottom: 400px;
-    }
+  .botoes {
+    bottom: 400px;
+  }
 }
-
